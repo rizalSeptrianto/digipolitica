@@ -1,0 +1,288 @@
+.container {
+  background-image: url("asset/bg-digi.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+.text-content {
+  text-align: left;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.card {
+  background-color: rgba(3, 123, 250, 0.8);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+.container2 {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.quote {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 10px black;
+}
+.quote p {
+  color: #0421ff;
+  text-align: justify;
+}
+
+.checklist {
+  margin-top: 30px;
+}
+
+.checklist .list-group-item {
+  background-color: #746f6f;
+  border: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.checklist .list-group-item:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.checklist .list-group-item:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.container3 {
+  background: #8dc0dd;
+}
+
+.container4 {
+  padding-top: 50px;
+  background: #333;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.title4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.description {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.icon {
+  font-size: 48px;
+  color: orange;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list-group-item {
+  background: #333;
+  border: none;
+  color: #fff;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
+}
+
+.list-group-item .fa-check-circle {
+  color: orange;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.cta-button {
+  background-color: #09ac45;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 48px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 32px;
+  border: 10px solid white;
+}
+.cta-button1 {
+  background:linear-gradient(to right, #e69600, #deb646);
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 32px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 24px;
+  border: 4px solid white;
+}
+.contener5 {
+  background-color: #3d403f;
+  background-image: url("asset/bgtanga.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  color: #fff;
+}
+.card-img-left {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #ebeaea;
+  padding: 20px; /* Tambahkan padding untuk memastikan shadow terlihat */
+  z-index: 10; /* Pastikan elemen berada di atas elemen lain */
+  position: relative;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-size: 12px ;
+}
+
+.blockquote {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #555;
+}
+.card {
+  background-color: #5746d6;
+  border: none;
+  margin: auto;
+}
+
+.card-header {
+  background-color: #4638a9;
+  margin-top: 0px;
+  border-radius: 30px 30px 0px 0px;
+  background: #282828;
+}
+
+.card-title1 {
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom-right-radius: 30px;
+}
+
+.price {
+  font-size: 60px;
+  font-weight: bold;
+  color: #000;
+}
+
+.price-text {
+  font-size: 18px;
+  color: #000;
+}
+
+.services {
+  padding: 0px;
+  color: #ff7700;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.services h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.services li:before {
+  content: "■";
+  margin-right: 10px;
+}
+
+.bonus {
+  padding: 0px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.bonus h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.bonus ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: justify;
+  color: #000;
+}
+
+.bonus li {
+  margin-bottom: 5px;
+  padding-left: 20px; /* Add padding to align the text */
+  position: relative;
+}
+
+.bonus li:before {
+  content: '■'; /* You can change this to any bullet symbol or icon */
+  color: #000;  /* Set the bullet color */
+  position: absolute;
+  left: 0; /* Align the bullet to the left */
+  top: 0;
+  font-size: 16px;
+  line-height: 1;
+}
