@@ -160,7 +160,7 @@
   color: #fff;
 }
 .card-img-left {
-  width: 80px;
+  width: 100px;
   height: 80px;
   object-fit: cover;
   margin-bottom: 10px;
@@ -242,6 +242,7 @@
 
 .services li {
   margin-bottom: 5px;
+  font-size: 20px;
   color: #000;
 }
 
@@ -275,6 +276,7 @@
   margin-bottom: 5px;
   padding-left: 20px; /* Add padding to align the text */
   position: relative;
+  font-size: 20px;
 }
 
 .bonus li:before {
